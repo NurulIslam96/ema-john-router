@@ -1,19 +1,39 @@
-.header{
-    height: 80px;
-    background-color: #1C2B35;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+.header {
+  height: 80px;
+  background-color: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
-.header a{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 36px;
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 36px;
 }
-.header a:hover{
-    color: orange;
+.header a:hover {
+  color: orange;
+}
+
+.user-name {
+  color: white;
+  margin: 0 36px;
+}
+
+.btn-logout {
+  border: none;
+  background-color: rgb(231, 129, 129);
+  padding: 10px 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background-color: rgb(231, 68, 68);
 }
